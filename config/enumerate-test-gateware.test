@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./wait_usb_device.py --vid 0x1209 --pid 0x0001
+Name=Enumerate test gateware
+Description=Wait for the test gateware to enumerate on USB
+Timeout=10
+Requires=load-test-gateware

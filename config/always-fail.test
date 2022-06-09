@@ -1,0 +1,5 @@
+[Test]
+ExecStart=sleep 10
+Name=Always fail
+Description=Sleep for three seconds and timeout
+Timeout=3

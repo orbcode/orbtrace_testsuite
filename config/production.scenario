@@ -1,0 +1,5 @@
+[Scenario]
+Name=Production
+Description=Run board initialization, full factory test suite and write production gateware to flash.
+Tests=leds-button, group-internal, group-io, group-flash, enumerate-application-gateware, print-label
+StopAfterFailureCount=1

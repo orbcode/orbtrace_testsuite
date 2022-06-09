@@ -1,0 +1,4 @@
+[Scenario]
+Name=Flash
+Description=Flash images without running tests.
+Tests=group-flash

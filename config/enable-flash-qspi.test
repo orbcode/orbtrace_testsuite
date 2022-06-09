@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./enable-flash-qspi.py
+Name=Enable flash QSPI
+Description=Set and check flash QSPI enable bit
+Requires=probe-flash

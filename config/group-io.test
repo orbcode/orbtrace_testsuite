@@ -1,0 +1,5 @@
+[Test]
+ExecStart=echo IO tests all passed
+Name=Group: IO tests
+Description=Run all IO tests
+Requires=target-power, target-io-loopback

@@ -1,0 +1,5 @@
+[Test]
+ExecStart=echo All images flashed successfully
+Name=Group: Flash images
+Description=Write all images to flash
+Requires=flash-bootloader-gateware, flash-application-gateware

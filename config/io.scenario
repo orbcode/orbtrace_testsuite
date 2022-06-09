@@ -1,0 +1,4 @@
+[Scenario]
+Name=IO
+Description=Run IO tests only.
+Tests=group-io

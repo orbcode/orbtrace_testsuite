@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./test-target-power.py
+Name=Test target power
+Description=Test target power supplies and monitoring against dummy loads
+Requires=run-test-gateware

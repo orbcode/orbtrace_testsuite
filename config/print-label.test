@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./create-label.py
+Name=Print label
+Description=Print a label after successful testing and flashing
+Requires=enumerate-application-gateware

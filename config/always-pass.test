@@ -1,0 +1,4 @@
+[Test]
+ExecStart=sleep 3
+Name=Always pass
+Description=Sleep for three seconds and pass

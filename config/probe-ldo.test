@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./probe-led-controller.py
+Name=Probe LDO
+Description=Probe LDO over I2C
+Requires=run-test-gateware

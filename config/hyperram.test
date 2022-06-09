@@ -1,0 +1,5 @@
+[Test]
+ExecStart=wishbone-tool -v 0x1209 -p 0x0001 -s random-test --random-address 0x20000000 --random-range 0x800000 --random-loops 10000
+Name=Test hyperram
+Description=Perform random write and readback testing on the hyperram
+Requires=run-test-gateware

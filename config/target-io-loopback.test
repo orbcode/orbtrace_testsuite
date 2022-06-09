@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./test-io-loopback.py
+Name=Test target IO loopback
+Description=Test target IO against loopback connections
+Suggests=target-power
+Requires=run-test-gateware

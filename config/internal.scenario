@@ -1,0 +1,4 @@
+[Scenario]
+Name=Internal
+Description=Run internal tests only.
+Tests=group-internal

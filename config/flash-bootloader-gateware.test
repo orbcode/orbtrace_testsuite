@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./strip-overwritten-lines.py dfu-util -d 1209:0001 -a 2 -D gateware/bootloader/orbtrace_mini.bit
+Name=Flash bootloader gateware
+Description=Write bootloader gateware to flash
+Requires=run-test-gateware

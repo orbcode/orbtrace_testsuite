@@ -1,0 +1,5 @@
+[Jig]
+Name=FT232H-based jig
+Description=Orbtrace testjig based on FT232H for JTAG access
+DefaultScenario=production
+DefaultWorkingDirectory=../bin

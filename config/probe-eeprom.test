@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./probe-eeprom.py
+Name=Probe EEPROM
+Description=Probe EEPROM over I2C and test read/write
+Requires=run-test-gateware

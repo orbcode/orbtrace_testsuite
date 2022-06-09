@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./wait_bios_prompt.py --port /dev/cu.usbmodem143401
+Name=Wait for BIOS prompt
+Description=Wait for the BIOS prompt to ensure initialization is finished
+Timeout=10
+Requires=enumerate-test-gateware

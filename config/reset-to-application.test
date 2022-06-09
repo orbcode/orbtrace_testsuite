@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./reset.py
+Name=Reset to application gateware
+Description=Assert FPGA reset to load application gateware from flash
+Requires=run-test-gateware
+Suggests=flash-application-gateware

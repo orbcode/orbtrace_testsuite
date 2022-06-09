@@ -1,0 +1,5 @@
+[Test]
+ExecStart=openFPGALoader -c ft232 gateware/test/orbtrace_mini.bit --freq 30000000
+Name=Load test gateware
+Description=Load test gateware into the FPGA
+Timeout=10

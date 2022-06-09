@@ -1,0 +1,5 @@
+[Test]
+ExecStart=echo Test gateware ready.
+Name=Run test gateware
+Description=Ensure test gateware is loaded and ready to run tests
+Requires=enumerate-test-gateware, wait-for-bios-prompt

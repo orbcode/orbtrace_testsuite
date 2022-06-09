@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./probe-flash.py
+Name=Probe flash
+Description=Probe flash presence and read IDs
+Requires=run-test-gateware

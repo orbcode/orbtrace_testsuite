@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./probe-adc.py
+Name=Probe ADC
+Description=Probe ADC over I2C
+Requires=run-test-gateware

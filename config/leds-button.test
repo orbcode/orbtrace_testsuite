@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./test-leds-button.py
+Name=Test LEDs and button
+Description=Manually confirm that all LEDs are on before pressing the button
+Requires=run-test-gateware

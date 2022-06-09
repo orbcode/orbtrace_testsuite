@@ -1,0 +1,5 @@
+[Test]
+ExecStart=echo Internal tests all passed
+Name=Group: Internal tests
+Description=Run all internal tests
+Requires=enable-flash-qspi, hyperram, probe-eeprom, probe-ldo, probe-led-controller, probe-adc

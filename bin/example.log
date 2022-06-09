@@ -1,0 +1,22 @@
+dfu-util 0.9
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Deducing device DFU version from functional descriptor length
+Opening DFU capable USB device...
+ID 1209:0001
+Run-time device DFU version 0100
+Claiming USB DFU Interface...
+Setting Alternate Setting #2 ...
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 0100
+Device returned transfer size 256
+Copying data from PC to DFU device
+Download	[                         ]   0%            0 bytesDownload	[                         ]   0%          256 bytesDownload	[=                        ]   4%        14592 bytesDownload	[==                       ]   8%        28928 bytesDownload	[===                      ]  12%        43264 bytesDownload	[====                     ]  16%        57600 bytesDownload	[====                     ]  18%        65792 bytesDownload	[=====                    ]  20%        71936 bytesDownload	[======                   ]  24%        86272 bytesDownload	[=======                  ]  28%       100608 bytesDownload	[========                 ]  32%       114944 bytesDownload	[=========                ]  36%       129280 bytesDownload	[==========               ]  40%       143616 bytesDownload	[===========              ]  44%       157952 bytesDownload	[============             ]  48%       172544 bytesDownload	[============             ]  49%       178688 bytesDownload	[=============            ]  52%       186880 bytesDownload	[==============           ]  56%       201216 bytesDownload	[===============          ]  60%       215552 bytesDownload	[================         ]  64%       229888 bytesDownload	[=================        ]  68%       244224 bytesDownload	[==================       ]  72%       258560 bytesDownload	[==================       ]  73%       262400 bytesDownload	[===================      ]  76%       272896 bytesDownload	[====================     ]  80%       287232 bytesDownload	[=====================    ]  84%       301568 bytesDownload	[======================   ]  88%       315904 bytesDownload	[=======================  ]  92%       330496 bytesDownload	[=======================  ]  94%       340736 bytesDownload	[======================== ]  96%       344832 bytesDownload	[=========================] 100%       358701 bytes
+Download done.
+state(2) = dfuIDLE, status(0) = No error condition is present
+Done!
