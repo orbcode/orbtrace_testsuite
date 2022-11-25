@@ -1,5 +1,5 @@
 [Test]
-ExecStart=./probe-ldo.py
+ExecStart=./probe-led-controller.py
 Name=Probe LED controller
 Description=Probe LED controller over I2C
 Requires=run-test-gateware
